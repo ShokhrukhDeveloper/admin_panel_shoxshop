@@ -43,18 +43,18 @@ class _MainPageState extends State<MainPage> {
   var selectedIndex = 1;
   @override
   Widget build(BuildContext context) {
-    List<Widget> views = const [
-      Center(
+    List<Widget> views = [
+      const Center(
         child: Text('Dashboard'),
       ),
       CategoryWidget(),
-      Center(
+      const Center(
         child: Text('Dashboard'),
       ),
-      Center(
+      const Center(
         child: Text('Account'),
       ),
-      Center(
+      const Center(
         child: Text('Settings'),
       ),
     ];
