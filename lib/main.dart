@@ -1,3 +1,4 @@
+import 'package:dashboard_shox_shop/presentation/category/alert_category.dart';
 import 'package:dashboard_shox_shop/presentation/main_page/main_page.dart';
 import 'package:flutter/material.dart';
 
@@ -10,10 +11,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        title: 'Dashboard',
-        theme: ThemeData(
-          primarySwatch: Colors.blue,
-        ),
-        home: const MainPage());
+      title: 'Dashboard',
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
+      home: AlertCategory(),
+    );
+    // home: const MainPage());
   }
 }
